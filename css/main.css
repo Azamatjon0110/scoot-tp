@@ -735,12 +735,13 @@ p{
 }
 
 .signup__heading{
+  font-family: 'Space Mono';
+  font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  font-family: "Mono Space";
   line-height: 48px;
   letter-spacing: -2.14286px;
-  color: #fff;
+  color: var(--text-color);
 
 }
 

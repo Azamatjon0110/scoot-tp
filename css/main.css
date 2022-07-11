@@ -123,7 +123,7 @@ p{
 }
 
 .site-header__links, .footernav__link{
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -177,14 +177,14 @@ p{
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #fff;
-  
+
 }
 
 .hero-wrap__desc-box{
   position: relative;
   width: 405px;
   margin-left: auto;
-  
+
 }
 
 .hero-wrap__desc-box::before{
@@ -209,13 +209,13 @@ p{
 
 
 .hero-wrap__desc{
+  font-family: "Lexend Deca";
   margin-bottom: 40px;
   font-weight: 400;
-  font-family: ;
   font-size: 15px;
   line-height: 25px;
   color: #fff;
-  
+
 }
 
 .hero-wrap__btn{
@@ -289,10 +289,10 @@ p{
   font-weight: 700;
   font-size: 24px;
   font-family: "Mono Space";
-  line-height: 28px; 
+  line-height: 28px;
   letter-spacing: -1.07143px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .app__desc{
@@ -302,7 +302,7 @@ p{
   font-family: "Lexend Deca";
   line-height: 25px;
   color: var(--desc-dim-grey);
-  
+
 }
 
 .app__box{
@@ -337,7 +337,7 @@ p{
   line-height: 48px;
   letter-spacing: -2.14286px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .app__info{
@@ -415,7 +415,7 @@ p{
   line-height: 48px;
   letter-spacing: -2.14286px;
   color: #fff;
-  
+
 }
 
 .signup__links{
@@ -441,7 +441,7 @@ p{
   margin-left: 36px;
   font-weight: 700;
   font-size: 10px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   line-height: 15px;
   letter-spacing: -0.446429px;
   color: var(--title-dark-nevy);
@@ -451,11 +451,11 @@ p{
   margin-left: 35px;
   font-weight: 700;
   font-size: 20px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   line-height: 24px;
   letter-spacing: -0.892857px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .signup__span--active{

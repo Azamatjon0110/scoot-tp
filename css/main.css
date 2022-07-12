@@ -773,14 +773,14 @@ p{
   margin: 0 auto;
 }
 
-#map{
+/* #map{
   display: inline-block;
   background-image: url("../images/london.png");
   background-size: 189px 88px;
-
+  
   background-repeat: no-repeat;
-
-}
+  
+} */
 
 
 /* faqs end */
@@ -880,6 +880,39 @@ p{
 }
 /* fielts end */
 
+/* LOCATION STYLES START */
+
+.message__box{
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.message__txt-box{
+  width: 351px;
+}
+
+.message__heading{
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;  
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.message__desc-box{
+  width: 445px;
+}
+
+.message__desc{
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  
+}
 
 
 /* footer start */

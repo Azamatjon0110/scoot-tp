@@ -4,92 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Scoot</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <meta name="description" content="map created using amCharts pixel map generator" />
-    <!-- <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script> -->
-    <script type="text/javascript" src="./js/map.js"></script>
-    <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
-    
-    
-    <!-- amCharts javascript code -->
-    <script type="text/javascript">
-        AmCharts.makeChart("map",{
-            "type": "map",
-            "pathToImages": "",
-            "addClassNames": true,
-            "fontSize": 15,
-            "color": "#FCB72B",
-            "projection": "winkel3",
-            "backgroundAlpha": 1,
-            "backgroundColor": "#fff",
-            "dataProvider": {
-                "map": "worldLow",
-                "getAreasFromMap": true,
-                "images": [
-                {
-                    "top": 40,
-                    "left": 60,
-                    "width": 80,
-                    "height": 40,
-                    "pixelMapperLogo": true,
-                    "imageURL": "../images/london",
-                    
-
-                }
-                ]
-            },
-            "balloon": {
-                "horizontalPadding": 15,
-                "borderAlpha": 0,
-                "borderThickness": 0,
-                "verticalPadding": 15,
-                "color": "#495567"
-                
-            },
-            "areasSettings": {
-                "color": "#f2f2f2",
-                "outlineColor": "#f2f2f2",
-                "rollOverOutlineColor": "#f2f2f2", //chegaralar rangi//
-                "rollOverBrightness": 20,
-                "selectedBrightness": 10,
-                "selectable": true,
-                "unlistedAreasAlpha": 10,
-                "unlistedAreasOutlineAlpha": 50
-            },
-            "imagesSettings": {
-                "alpha": 1,
-                "color": "#FCB72B",
-                "outlineAlpha": 0,
-                "rollOverOutlineAlpha": 0,
-                "outlineColor": "#FCB72B",
-                "rollOverBrightness": 20,
-                "selectedBrightness": 20,
-                "selectable": true
-            },
-            "linesSettings": {
-                "color": "#FCB72B",
-                "selectable": true,
-                "rollOverBrightness": 20,
-                "selectedBrightness": 20
-            },
-            "zoomControl": {
-                "zoomControlEnabled": false,
-                "homeButtonEnabled": false,
-                "panControlEnabled": false,
-                "right": 38,
-                "bottom": 30,
-                "minZoomLevel": 0.25,
-                "gridHeight": 100,
-                "gridAlpha": 0.1,
-                "gridBackgroundAlpha": 0,
-                "gridColor": "#FCB72B",
-                "draggerAlpha": 10,
-                "buttonCornerRadius": 2
-            },
-            
-        });
-    </script>
 </head>
 <body>
     
@@ -129,11 +46,26 @@
         <section>
             <div class="intro-top intro-top--op">
                 <div class="container">
-                  <h2 class="intro-top__title">Locations</h2>
+                    <h2 class="intro-top__title">Locations</h2>
                 </div>
-              </div>
+            </div>
             
-            <div id="map" style="width: 100%; height: 636px;">
+            <div id="map" style="width: 100%; height: 542px; margin: 120px 0;">      
+            </div>
+            <div class="message">
+                <div class="container">
+                    <div class="message__box">
+                        <div class="message__txt-box">
+                            <h3 class="message__heading">Your city not listed?</h3>
+                        </div>
+                        <div class="message__desc-box">
+                            <p class="message__desc">
+                                If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.
+                            </p>
+                        </div>
+                        <a class="link" href="#">Message Us</a>
+                    </div>
+                </div>
                 
             </div>
             
@@ -220,6 +152,7 @@
             </div>
         </div>
     </footer>
-   
+    <script src="./js/main.min.js"></script>
+    <script src="./js/map.js"></script>
 </body>
 </html>

@@ -123,7 +123,7 @@ p{
 }
 
 .site-header__links, .footernav__link{
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -155,6 +155,7 @@ p{
 }
 
 /* header end */
+
 
 /* values start */
 
@@ -277,6 +278,7 @@ p{
 
 
 
+
 .hero{
   position: relative;
   padding: 153px 0;
@@ -299,14 +301,14 @@ p{
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #fff;
-
+  
 }
 
 .hero-wrap__desc-box{
   position: relative;
   width: 405px;
   margin-left: auto;
-
+  
 }
 
 .hero-wrap__desc-box::before{
@@ -331,13 +333,13 @@ p{
 
 
 .hero-wrap__desc{
-  font-family: "Lexend Deca";
   margin-bottom: 40px;
   font-weight: 400;
+  font-family: "Lexend Deca";
   font-size: 15px;
   line-height: 25px;
   color: #fff;
-
+  
 }
 
 .hero-wrap__btn{
@@ -411,10 +413,10 @@ p{
   font-weight: 700;
   font-size: 24px;
   font-family: "Mono Space";
-  line-height: 28px;
+  line-height: 28px; 
   letter-spacing: -1.07143px;
   color: var(--title-dark-nevy);
-
+  
 }
 
 .app__desc{
@@ -424,8 +426,9 @@ p{
   font-family: "Lexend Deca";
   line-height: 25px;
   color: var(--desc-dim-grey);
-
+  
 }
+
 
 .app__itemm{
   display: flex;
@@ -456,7 +459,7 @@ p{
   line-height: 48px;
   letter-spacing: -2.14286px;
   color: var(--title-dark-nevy);
-
+  
 }
 
 .app__info{
@@ -511,16 +514,19 @@ p{
   right: -127%
 }
 
-.signup{
-  padding: 122px 0;
+
+.signup__bg{
   background-image: url("../images/signup.png");
-  background-size:cover;
+  background-size:contain;
+  width: 1440px;
+  height: 300px;
 }
 
 .signup__box{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
 }
 
 .signup__heading-box{
@@ -528,14 +534,13 @@ p{
 }
 
 .signup__heading{
-  font-family: 'Space Mono';
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
+  font-family: "Mono Space";
   line-height: 48px;
   letter-spacing: -2.14286px;
-  color: var(--text-color);
-
+  color: #fff;
+  
 }
 
 .signup__links{
@@ -561,7 +566,7 @@ p{
   margin-left: 36px;
   font-weight: 700;
   font-size: 10px;
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   line-height: 15px;
   letter-spacing: -0.446429px;
   color: var(--title-dark-nevy);
@@ -571,16 +576,17 @@ p{
   margin-left: 35px;
   font-weight: 700;
   font-size: 20px;
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   line-height: 24px;
   letter-spacing: -0.892857px;
   color: var(--title-dark-nevy);
-
+  
 }
 
 .signup__span--active{
   width: 182px;
 }
+
 /* about hero start */
 
 .intro-top{
@@ -765,155 +771,17 @@ p{
   width: 240px;
   height: 240px;
   margin: 0 auto;
+}
+
+#map{
+  display: inline-block;
+  background-image: url("../images/london.png");
+  background-size: 189px 88px;
+
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-.values__box:after{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 96px;
-  height: 96px;
-  left: 70px;
-  top: calc(50% + 70px);
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  letter-spacing: -1.07143px;
-  border-radius: 50%;
-  background-color: var(--yellow-button);
-  color: var(--title-dark-nevy);
-}
-
-.values__item:nth-child(1) .values__box{
-  background-image: url("../images/teach.png");
-}
-
-
-.values__item:nth-child(1) .values__box:after{
-  content: "01";
 
 }
 
-.values__item:nth-child(2) .values__box:after{
-  content: "02";
-}
-
-.values__item:nth-child(2) .values__box{
-  background-image: url("../images/integrity.png");
-}
-
-.values__item:nth-child(3) .values__box:after{
-  content: "03";
-}
-
-.values__item:nth-child(3) .values__box{
-  background-image: url("../images/comunity.png");
-}
-
-.values__title{
-  margin: 0;
-  margin-top: 87px;
-  margin-bottom: 27px;
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: -1.07143px;
-  color: var(--title-dark-nevy);
-}
-
-.values__text{
-  margin: 0;
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  color: var(--desc-dim-grey);
-}
-/* values end */
-
-/* faqs start */
-
-.faqs{
-  padding-bottom: 160px;
-}
-
-.faqs__box{
-  display: flex;
-  align-items: flex-start;
-}
-
-.faqs__box:not(:last-child){
-  margin: 64px 0;
-}
-
-.faqs__text{
-  margin: 0;
-  margin-right: auto;
-  font-family: 'Space Mono';
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -1.78571px;
-  color: var(--title-dark-nevy);
-}
-
-.faqs__details-box{
-  width: 730px;
-}
-
-.faqs__details{
-  padding: 32px 40px;
-  list-style: none;
-  background-color: var(--snow);
-}
-.faqs__details .faqs__img{
-  transition: 0.5s ease;
-}
-.faqs__details:hover{
-  background-color: var(--light-yellow);
-}
-
-.faqs__details:not(:last-child){
-  margin-bottom: 16px;
-}
-
-.faqs__summary{
-  display: flex;
-  align-items: center;
-  font-family: 'Space Mono';
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: -1.07143px;
-  color: var(--title-dark-nevy);
-}
-
-.faqs__img{
-  margin-left: auto;
-}
-
-.faqs__details[open] .faqs__img{
-  transform: rotate(180deg);
-}
-
-.faqs__dttext{
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  color: var(--title-dark-nevy);
-
-}
 
 /* faqs end */
 
@@ -1011,6 +879,8 @@ p{
   color: var(--title-dark-nevy);
 }
 /* fielts end */
+
+
 
 /* footer start */
 

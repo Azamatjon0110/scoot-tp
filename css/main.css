@@ -773,14 +773,77 @@ p{
   margin: 0 auto;
 }
 
-/* #map{
-  display: inline-block;
-  background-image: url("../images/london.png");
-  background-size: 189px 88px;
-  
-  background-repeat: no-repeat;
-  
-} */
+.faqs{
+  padding-bottom: 160px;
+}
+
+.faqs__box{
+  display: flex;
+  align-items: flex-start;
+}
+
+.faqs__box:not(:last-child){
+  margin: 64px 0;
+}
+
+.faqs__text{
+  margin: 0;
+  margin-right: auto;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: var(--title-dark-nevy);
+}
+
+.faqs__details-box{
+  width: 730px;
+}
+
+.faqs__details{
+  padding: 32px 40px;
+  list-style: none;
+  background-color: var(--snow);
+}
+.faqs__details .faqs__img{
+  transition: 0.5s ease;
+}
+.faqs__details:hover{
+  background-color: var(--light-yellow);
+}
+
+.faqs__details:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.faqs__summary{
+  display: flex;
+  align-items: center;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: var(--title-dark-nevy);
+}
+
+.faqs__img{
+  margin-left: auto;
+}
+
+.faqs__details[open] .faqs__img{
+  transform: rotate(180deg);
+}
+
+.faqs__dttext{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--title-dark-nevy);
+}
 
 
 /* faqs end */

@@ -1585,7 +1585,7 @@ var simplemaps_worldmap_mapdata={
             lng: -0.1276831,
             type: "image",
             image_url: "./images/london.png",
-            size: "40"
+            size: "35"
           },
           "2": {
             name: "Jakarta",

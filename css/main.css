@@ -297,18 +297,18 @@ p{
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 56px;
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #fff;
-  
+
 }
 
 .hero-wrap__desc-box{
   position: relative;
   width: 405px;
   margin-left: auto;
-  
+
 }
 
 .hero-wrap__desc-box::before{
@@ -339,7 +339,7 @@ p{
   font-size: 15px;
   line-height: 25px;
   color: #fff;
-  
+
 }
 
 .hero-wrap__btn{
@@ -412,11 +412,11 @@ p{
   margin-bottom: 27px;
   font-weight: 700;
   font-size: 24px;
-  font-family: "Mono Space";
-  line-height: 28px; 
+  font-family: 'Space Mono';
+  line-height: 28px;
   letter-spacing: -1.07143px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .app__desc{
@@ -426,7 +426,7 @@ p{
   font-family: "Lexend Deca";
   line-height: 25px;
   color: var(--desc-dim-grey);
-  
+
 }
 
 
@@ -452,14 +452,14 @@ p{
 }
 
 .app__heading{
+  font-family: 'Space Mono';
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 48px;
-  font-family: "Mono Space";
   line-height: 48px;
   letter-spacing: -2.14286px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .app__info{
@@ -515,18 +515,26 @@ p{
 }
 
 
+.signup{
+  width: 100%;
+  background-image: url("../images/sign.png");
+  background-position: center;
+}
+
 .signup__bg{
-  background-image: url("../images/signup.png");
-  background-size:contain;
-  width: 1440px;
-  height: 300px;
+  width: 100%;
+  padding: 102px 0;
+  background-image: url("../images/circle.png");
+  background-position: calc(50% + 260px) calc(50% + 140px);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .signup__box{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .signup__heading-box{
@@ -534,13 +542,14 @@ p{
 }
 
 .signup__heading{
+  margin: 0;
+  font-family: 'Space Mono';
   font-weight: 700;
   font-size: 48px;
-  font-family: "Mono Space";
   line-height: 48px;
   letter-spacing: -2.14286px;
   color: #fff;
-  
+
 }
 
 .signup__links{
@@ -580,7 +589,7 @@ p{
   line-height: 24px;
   letter-spacing: -0.892857px;
   color: var(--title-dark-nevy);
-  
+
 }
 
 .signup__span--active{
@@ -959,7 +968,7 @@ p{
   font-family: "Space Mono";
   font-weight: 700;
   font-size: 48px;
-  line-height: 48px;  
+  line-height: 48px;
   letter-spacing: -2.14286px;
   color: #495567;
 }
@@ -974,7 +983,7 @@ p{
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
-  
+
 }
 
 
